@@ -1,0 +1,53 @@
+/* CATÁLOGO DE PRODUCTOS */
+.catalogo {
+  padding: 20px;
+}
+
+.lista-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-productos li {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.lista-productos li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+.lista-productos li img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.lista-productos li h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.lista-productos li p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.cantidad-input {
+  width: 60px;
+  padding: 5px;
+  margin: 5px 0;
+  font-size: 14px;
+}
+

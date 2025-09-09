@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="../Assets/css/0style.css">
+    <link rel="stylesheet" href="../Assets/css/5contacto.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="2productos.html">Productos</a></li>
+                <li><a href="3nosotros.html">Nosotros</a></li>
+                <li><a href="4blogs.html">Blogs</a></li>
+                <li><a href="5contacto.html">Contacto</a></li>
+                <li class="carrito"><a href="9carrito.html">Carrito<span class="carrito-contador">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contáctanos</h2>
+            <form class="forma-contacto">
+                <p>
+                    <label>Nombre</label><br>
+                    <input type="text" name="nombre" required>
+                </p>
+                <p>
+                    <label>Correo</label><br>
+                    <input type="email" name="correo" required placeholder="ejemplo@duoc.cl">
+                </p>
+                <p>
+                    <label>Teléfono</label><br>
+                    <input type="tel" name="telefono" required placeholder="9XXXXXXXX">
+                </p>
+                <p>
+                    <label>Mensaje</label><br>
+                    <textarea name="mensaje" required></textarea>
+                </p>
+                <p>
+                    <button type="submit">Enviar</button>
+                </p>
+            </form>
+    </section>
+    </main>
+
+    <footer>
+        <h2>MONSTERTEKA</h2>
+        <p>2025</p>
+    </footer>
+
+    <script src="../Assets/js/contacto.js"></script>
+</body>
+</html>

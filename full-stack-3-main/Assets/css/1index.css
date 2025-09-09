@@ -1,0 +1,122 @@
+
+
+/* INICIO / REGISTRO (botones portada) */
+.inicio-registro {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 15px;
+  margin: 15px 0 10px 0;
+  padding: 0;
+}
+
+.inicio-registro a {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+}
+
+/* Botón de Iniciar sesión */
+.inicio-registro a[href*="Html/iniciar-sesion.html"] {
+  background: #222;
+  color: white;
+  border: 2px solid #222;
+}
+.inicio-registro a[href*="Html/iniciar-sesion.html"]:hover {
+  background: white;
+  color: #222;
+}
+
+/* Botón de Registrar usuario */
+.inicio-registro a[href*="Html/registro-usuario.html"] {
+  background: #0026ff;
+  color: white;
+  border: 2px solid #0026ff;
+}
+.inicio-registro a[href*="Html/registro-usuario.html"]:hover {
+  background: white;
+  color: #0026ff;
+}
+
+/* PROMOCIÓN */
+.promocion {
+  background: url("../img/fondo.webp") center/cover no-repeat;
+  padding: 40px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+}
+
+.promocion h2,
+.promocion p,
+.promocion a {
+  text-shadow: 0px 2px 5px rgba(0,0,0,0.6);
+}
+
+.promocion a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #0026ff;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.promocion a:hover {
+  background: #0015cc;
+}
+
+/* CATÁLOGO DE PRODUCTOS EN INICIO */
+.lista-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 1200px) {
+  .lista-productos {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.lista-productos li {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.lista-productos li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+.lista-productos li img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.lista-productos li h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.lista-productos li p {
+  font-size: 0.9rem;
+  color: #555;
+}

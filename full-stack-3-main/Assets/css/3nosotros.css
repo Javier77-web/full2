@@ -1,0 +1,50 @@
+/* Contenedor principal */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  line-height: 1.7;
+}
+
+/* Secciones */
+main section {
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #0e0e0e;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+main section:nth-child(even) {
+  background: #2ee001; /* Fondo nuestra mision */
+}
+
+/* Títulos */
+main h2, main h3 {
+  color: #d3e2ce;
+  margin-bottom: 15px;
+}
+
+main p {
+  color: #e7dddd;
+  margin-bottom: 15px;
+}
+
+/* Equipo */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0;
+    margin-top: 15px;
+}
+ul li{
+    color: #2ee001;
+}
+
+ul li:hover {
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+    box-shadow: 0px 5px 12px rgba(214, 17, 17, 0.15); /*pasar por los nombre del equipo*/
+}

@@ -1,0 +1,117 @@
+/* Carrito */
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+main h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0026ff;
+}
+
+/* Contenedor del carrito */
+#carrito-contenido {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Cada producto en el carrito */
+.item-carrito {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.item-carrito:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.2);
+}
+
+/* Texto de producto */
+.item-carrito p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Botón eliminar */
+.item-carrito button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #e63946;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.item-carrito button:hover {
+  background: #c82333;
+}
+
+#carrito-total {
+  margin-top: 30px;
+  text-align: right;
+  font-size: 1.3rem;
+  color: #00c896;
+  font-weight: bold;
+}
+/* acciones */
+.carrito-acciones {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.carrito-acciones button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0077ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carrito-acciones button:hover {
+  background-color: #005ad4;
+}
+
+
+/* Botón vaciar carrito */
+main > button {
+  display: block;
+  margin: 25px auto 0;
+  padding: 12px 24px;
+  background: #0026ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+body {
+  background-color: #121212;
+  color: #fff; /* Texto general blanco */
+  font-family: Arial, sans-serif;
+}
+
+
+main > button:hover {
+  background: #0015cc;
+}
