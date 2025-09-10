@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Takicardiax</title>
+    <link rel="stylesheet" href="../Assets/css/style.css" />
+    <link rel="stylesheet" href="../Assets/css/formularios.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Takicardiax</h1>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>¡Crea una cuenta y energizate con nosotros!</h2>
+        <form action="#" method="post" class="forma-registro">
+          <p>
+            <label>Nombre completo</label><br />
+            <input type="text" name="nombre" required />
+          </p>
+          <p>
+            <label>Correo</label><br />
+            <input
+              type="email"
+              name="correo"
+              required
+              placeholder="ejemplo@duoc.cl"
+            />
+          </p>
+          <p>
+            <label>Confirmar correo</label><br />
+            <input
+              type="email"
+              name="confirmarCorreo"
+              required
+              placeholder="ejemplo@duoc.cl"
+            />
+          </p>
+          <p>
+            <label>Contraseña</label><br />
+            <input
+              type="password"
+              name="contraseña"
+              required
+              minlength="6"
+              maxlength="15"
+            />
+          </p>
+          <p>
+            <label>Confirmar contraseña</label><br />
+            <input
+              type="password"
+              name="confirmarContraseña"
+              required
+              minlength="6"
+              maxlength="15"
+            />
+          </p>
+          <p>
+            <label>Teléfono</label><br />
+            <input
+              type="tel"
+              name="telefono"
+              pattern="9[0-9]{8}"
+              placeholder="9XXXXXXXX"
+              required
+            />
+          </p>
+          <p>
+            <label>Confirmar Teléfono</label><br />
+            <input
+              type="tel"
+              name="confirmarTelefono"
+              pattern="9[0-9]{8}"
+              placeholder="9XXXXXXXX"
+              required
+            />
+          </p>
+          <p>
+            <button type="submit">Registrarse</button>
+          </p>
+          <p>
+            ¿Ya tienes cuenta?
+            <a href="iniciar-sesion.html">Inicia sesión aquí</a>
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <h2>Takicardiax</h2>
+      <p>© 2025 Takicardiax — Energía que te acelera.</p>
+    </footer>
+  </body>
+  <script src="../Assets/js/main.js"></script>
+</html>
