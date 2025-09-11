@@ -1,0 +1,122 @@
+/* CUADRO REGISTRO */
+.forma-registro {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #6e94be31;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.forma-registro label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.forma-registro input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.forma-registro button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0026ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.forma-registro button:hover {
+  background-color: #0015cc;
+}
+
+/* CUADRO INICIO DE SESIÓN */
+.forma-inicio {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #6e94be31;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.forma-inicio label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.forma-inicio input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.forma-inicio button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0026ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.forma-inicio button:hover {
+  background-color: #0015cc;
+}
+
+/* CUADRO CONTACTO */
+.forma-contacto {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #6e94be31;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.forma-contacto label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.forma-contacto input,
+.forma-contacto textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.forma-contacto button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0026ff;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.forma-contacto button:hover {
+  background-color: #0015cc;
+}
